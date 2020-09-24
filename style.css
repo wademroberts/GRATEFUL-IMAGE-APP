@@ -1,0 +1,52 @@
+@media only screen and (max-width: 375px) {
+body{
+  background-color: #lightblue;
+}
+#stealy{
+  
+}
+}
+
+@media only screen and (max-width: 5000px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .head {
+    width: 100%;
+    font-family: 'Rock Salt', cursive;
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+  }
+
+  #stealy {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 500px;
+  }
+
+  #text {
+    position: absolute;
+    bottom: 100px;
+    left: 500px;
+    width: 265px;
+    height: 40px;
+    border-radius: 15%;
+  }
+
+  .btn1 {
+    position: absolute;
+    bottom: 100px;
+    right: 550px;
+  }
+
+  footer {
+    color: #1e5f74;
+    position: absolute;
+    bottom: 5px;
+    left: 20px
+  }
+}
